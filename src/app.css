@@ -1,0 +1,36 @@
+.dot {
+  width: 25px;
+  height: 25px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.app {
+  background-color: rgb(48, 48, 48);
+  color: white;
+  height: 100vh;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button{
+  background: transparent;
+  height: 2rem;
+  color: white;
+  width: 5rem;
+  border-color: white;
+  padding: 15px;
+
+}
+
+button:hover{
+  background: black;
+  color: white;
+  cursor: pointer;
+}
